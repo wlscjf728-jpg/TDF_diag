@@ -1,0 +1,9 @@
+# Keep copied research files byte-identical even with core.autocrlf enabled.
+* -text
+*.csv whitespace=cr-at-eol
+# Historical files and raw tool output intentionally retain original formatting.
+diagnosis/** -whitespace
+rtl/** -whitespace
+tb/** -whitespace
+eda/original/** -whitespace
+evidence/** -whitespace

@@ -1,0 +1,10 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Sep 28 01:43 2026
+PASS: Step 2 Phase 1 multi-bank wrapper and baseline
+$finish called from file "/srscl/home/jcjeong/exa-results/TDF_diag/tb/TB_step2_phase1.v", line 135.
+$finish at simulation time               271000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 271000 ps
+CPU Time:      0.600 seconds;       Data structure size:   0.0Mb
+Mon Sep 28 01:43:39 2026

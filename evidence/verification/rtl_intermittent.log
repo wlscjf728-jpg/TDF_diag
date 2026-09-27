@@ -1,0 +1,14 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Sep 28 01:43 2026
+STEP3_PHASE3_SUMMARY opportunities=12 active=8 correct=12 vector_errors=0 position_errors=0
+PASS: Step 3 Phase 3 intermittent fault schedules
+STEP3_PHASE4_SUMMARY subset_cases=32 fault_instances=80 correct=32 vector_errors=0 position_errors=0
+PASS: Step 3 Phase 4 exhaustive representative-subset statistics
+PASS: Step 3 Phase 3-4 combined regression
+$finish called from file "/srscl/home/jcjeong/exa-results/TDF_diag/tb/TB_step3_phase34.v", line 219.
+$finish at simulation time            130231000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 130231000 ps
+CPU Time:      0.660 seconds;       Data structure size:   0.1Mb
+Mon Sep 28 01:43:31 2026

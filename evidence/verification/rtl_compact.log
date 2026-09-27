@@ -1,0 +1,10 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Sep 28 01:43 2026
+PASS: compact production OR-compressed evidence
+$finish called from file "/srscl/home/jcjeong/exa-results/TDF_diag/tb/TB_compact_production.v", line 88.
+$finish at simulation time               211000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 211000 ps
+CPU Time:      0.530 seconds;       Data structure size:   0.0Mb
+Mon Sep 28 01:43:43 2026

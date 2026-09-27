@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : area
+Design : omsp_with_sram_wrapper
+Version: S-2021.06-SP4
+Date   : Fri Jun 19 01:10:44 2026
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /srscl/kits/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+    saed32sram_ss0p95v125c (File: /srscl/kits/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db)
+
+Number of ports:                          262
+Number of nets:                          4003
+Number of cells:                         3611
+Number of combinational cells:           3073
+Number of sequential cells:               527
+Number of macros/black boxes:               6
+Number of buf/inv:                        418
+Number of references:                       6
+
+Combinational area:               7429.137434
+Buf/Inv area:                      559.625092
+Noncombinational area:            3751.165505
+Macro/Black Box area:           134089.591797
+Net Interconnect area:            4439.558408
+
+Total cell area:                145269.894736
+Total area:                     149709.453144
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area               Local cell area
+                                  --------------------  --------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-     Noncombi-  Black-
+                                  Total        Total    national   national   boxes        Design
+--------------------------------  -----------  -------  ---------  ---------  -----------  ----------
+omsp_with_sram_wrapper            145269.8947    100.0    46.2542     0.0000  134089.5918  omsp_with_sram_wrapper
+u_core                             11134.0487      7.7  7382.8832  3751.1655       0.0000  openMSP430
+--------------------------------  -----------  -------  ---------  ---------  -----------  ----------
+Total                                                   7429.1374  3751.1655  134089.5918
+
+1

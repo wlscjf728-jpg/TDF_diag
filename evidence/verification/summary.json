@@ -1,0 +1,17 @@
+{
+  "python": "3.10.20",
+  "unit_tests_passed": 57,
+  "rtl_suites_passed": [
+    "logger",
+    "permanent",
+    "intermittent",
+    "core",
+    "grouping",
+    "compact"
+  ],
+  "rtl_simulator": "VCS R-2020.12-SP1_Full64",
+  "fresh_logger_equals_archived": true,
+  "fresh_smoke_rows_equal_archived": 208,
+  "full_100_trial_sweep_rerun": false,
+  "synthesis_or_sta_rerun": false
+}

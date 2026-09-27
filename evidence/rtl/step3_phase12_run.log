@@ -1,0 +1,15 @@
+Command: /srscl/home/jcjeong/LBIST_inf/dc/experimental/SIM/FUNCTION/./simv_step3_phase12 -l step3_phase12_run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 11 21:33 2026
+STEP3_PHASE1_SUMMARY cases=4 correct=4 vector_errors=0 position_errors=0
+PASS: Step 3 Phase 1 multiple permanent faults
+STEP3_PHASE2_SUMMARY cases=4 correct=4 vector_errors=0 position_errors=0
+PASS: Step 3 Phase 2 multiple transition-delay effects
+PASS: Step 3 Phase 1-2 combined regression
+$finish called from file "../TESTBENCH/TB_step3_phase12.v", line 269.
+$finish at simulation time             23671000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 23671000 ps
+CPU Time:      0.460 seconds;       Data structure size:   0.2Mb
+Thu Jun 11 21:33:24 2026

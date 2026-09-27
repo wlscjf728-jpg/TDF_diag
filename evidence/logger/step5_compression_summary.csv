@@ -1,0 +1,8 @@
+case,full_response_bits,raw_b_bits,detected_events,stored_events,compact_log_bits,reduction_vs_full_pct,reduction_vs_rawB_pct,sram_usage_pct,overflow
+no_fault,2880,288,0,0,0,100.00,100.00,0.00,0
+single_static,2880,288,1,1,16,99.44,94.44,3.12,0
+single_transition,2880,288,1,1,16,99.44,94.44,3.12,0
+multi_diff_cols,2880,288,3,3,48,98.33,83.33,9.38,0
+same_col_mixed,2880,288,1,1,16,99.44,94.44,3.12,0
+dense_16_events,2880,288,16,16,256,91.11,11.11,50.00,0
+overflow_40_events,2880,288,40,32,512,82.22,-77.78,100.00,1

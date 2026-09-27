@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : compact_production_top_L72_N_TOTAL160_NSP4
+Version: S-2021.06-SP4
+Date   : Fri Jun 12 01:43:55 2026
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /srscl/kits/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+Number of ports:                          731
+Number of nets:                         69746
+Number of cells:                        56038
+Number of combinational cells:          38157
+Number of sequential cells:             17881
+Number of macros/black boxes:               0
+Number of buf/inv:                       2244
+Number of references:                      29
+
+Combinational area:              86775.435679
+Buf/Inv area:                     4191.851295
+Noncombinational area:          121386.292344
+Macro/Black Box area:                0.000000
+Net Interconnect area:          155799.239754
+
+Total cell area:                208161.728022
+Total area:                     363960.967777
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  ------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-      Noncombi-    Black-
+                                  Total        Total    national    national     boxes   Design
+--------------------------------  -----------  -------  ----------  -----------  ------  ---------
+compact_production_top_L72_N_TOTAL160_NSP4
+                                  208161.7280    100.0  86775.4357  121386.2923  0.0000  compact_production_top_L72_N_TOTAL160_NSP4
+--------------------------------  -----------  -------  ----------  -----------  ------  ---------
+Total                                                   86775.4357  121386.2923  0.0000
+
+1

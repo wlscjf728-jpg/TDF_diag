@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : area
+Design : compact_production_top_L72_N_TOTAL160_NSP32
+Version: S-2021.06-SP4
+Date   : Thu Jun 11 23:55:28 2026
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /srscl/kits/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+Number of ports:                          806
+Number of nets:                         47191
+Number of cells:                        46570
+Number of combinational cells:          34245
+Number of sequential cells:             12320
+Number of macros/black boxes:               0
+Number of buf/inv:                       1990
+Number of references:                       6
+
+Combinational area:              79916.087954
+Buf/Inv area:                     3944.315068
+Noncombinational area:           86937.581005
+Macro/Black Box area:                0.000000
+Net Interconnect area:           87498.275005
+
+Total cell area:                166853.668959
+Total area:                     254351.943964
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-      Noncombi-   Black-
+                                  Total        Total    national    national    boxes   Design
+--------------------------------  -----------  -------  ----------  ----------  ------  ----------------------------------------------
+compact_production_top_L72_N_TOTAL160_NSP32
+                                  166853.6690    100.0      3.8122      0.0000  0.0000  compact_production_top_L72_N_TOTAL160_NSP32
+g_bank_0__u_bank                   33370.8863     20.0  15983.3701  17387.5162  0.0000  compact_spare_scan_bank_L72_NCHAINS32_POS_W7_4
+g_bank_1__u_bank                   33369.1073     20.0  15981.5911  17387.5162  0.0000  compact_spare_scan_bank_L72_NCHAINS32_POS_W7_3
+g_bank_2__u_bank                   33371.1404     20.0  15983.6242  17387.5162  0.0000  compact_spare_scan_bank_L72_NCHAINS32_POS_W7_2
+g_bank_3__u_bank                   33369.6156     20.0  15982.0994  17387.5162  0.0000  compact_spare_scan_bank_L72_NCHAINS32_POS_W7_1
+g_bank_4__u_bank                   33369.1073     20.0  15981.5911  17387.5162  0.0000  compact_spare_scan_bank_L72_NCHAINS32_POS_W7_0
+--------------------------------  -----------  -------  ----------  ----------  ------  ----------------------------------------------
+Total                                                   79916.0880  86937.5810  0.0000
+
+1

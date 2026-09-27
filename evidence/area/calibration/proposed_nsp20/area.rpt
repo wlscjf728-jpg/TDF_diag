@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : area
+Design : compact_production_top_L72_N_TOTAL160_NSP20
+Version: S-2021.06-SP4
+Date   : Thu Jun 11 23:56:15 2026
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /srscl/kits/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+Number of ports:                          899
+Number of nets:                         49475
+Number of cells:                        48130
+Number of combinational cells:          35322
+Number of sequential cells:             12800
+Number of macros/black boxes:               0
+Number of buf/inv:                       2146
+Number of references:                      11
+
+Combinational area:              81688.488089
+Buf/Inv area:                     3549.121024
+Noncombinational area:           89914.115570
+Macro/Black Box area:                0.000000
+Net Interconnect area:           87777.148415
+
+Total cell area:                171602.603659
+Total area:                     259379.752074
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-      Noncombi-   Black-
+                                  Total        Total    national    national    boxes   Design
+--------------------------------  -----------  -------  ----------  ----------  ------  ----------------------------------------------
+compact_production_top_L72_N_TOTAL160_NSP20
+                                  171602.6037    100.0     15.7569      0.0000  0.0000  compact_production_top_L72_N_TOTAL160_NSP20
+g_bank_0__u_bank                   21423.5768     12.5  10184.3124  11239.2644  0.0000  compact_spare_scan_bank_L72_NCHAINS20_POS_W7_7
+g_bank_1__u_bank                   21447.2122     12.5  10207.9477  11239.2644  0.0000  compact_spare_scan_bank_L72_NCHAINS20_POS_W7_6
+g_bank_2__u_bank                   21452.0409     12.5  10212.7765  11239.2644  0.0000  compact_spare_scan_bank_L72_NCHAINS20_POS_W7_5
+g_bank_3__u_bank                   21473.3890     12.5  10234.1246  11239.2644  0.0000  compact_spare_scan_bank_L72_NCHAINS20_POS_W7_4
+g_bank_4__u_bank                   21446.1956     12.5  10206.9312  11239.2644  0.0000  compact_spare_scan_bank_L72_NCHAINS20_POS_W7_3
+g_bank_5__u_bank                   21448.2288     12.5  10208.9643  11239.2644  0.0000  compact_spare_scan_bank_L72_NCHAINS20_POS_W7_2
+g_bank_6__u_bank                   21452.0409     12.5  10212.7765  11239.2644  0.0000  compact_spare_scan_bank_L72_NCHAINS20_POS_W7_1
+g_bank_7__u_bank                   21444.1625     12.5  10204.8980  11239.2644  0.0000  compact_spare_scan_bank_L72_NCHAINS20_POS_W7_0
+--------------------------------  -----------  -------  ----------  ----------  ------  ----------------------------------------------
+Total                                                   81688.4881  89914.1156  0.0000
+
+1

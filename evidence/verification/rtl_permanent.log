@@ -1,0 +1,14 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Sep 28 01:43 2026
+STEP3_PHASE1_SUMMARY cases=4 correct=4 vector_errors=0 position_errors=0
+PASS: Step 3 Phase 1 multiple permanent faults
+STEP3_PHASE2_SUMMARY cases=4 correct=4 vector_errors=0 position_errors=0
+PASS: Step 3 Phase 2 multiple transition-delay effects
+PASS: Step 3 Phase 1-2 combined regression
+$finish called from file "/srscl/home/jcjeong/exa-results/TDF_diag/tb/TB_step3_phase12.v", line 269.
+$finish at simulation time             23671000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 23671000 ps
+CPU Time:      0.650 seconds;       Data structure size:   0.1Mb
+Mon Sep 28 01:43:27 2026

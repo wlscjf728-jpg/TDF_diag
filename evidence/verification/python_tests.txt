@@ -1,0 +1,98 @@
+test_data_duplication_fallback_when_all_chains_fail (test_audit_v2.AuditV2Test) ... ok
+test_observation_determinism_and_no_oracle_access (test_audit_v2.AuditV2Test) ... ok
+test_reconfigurable_saturation (test_audit_v2.AuditV2Test) ... ok
+test_reversible_length_1000 (test_audit_v2.AuditV2Test) ... ok
+test_two_dimensional_diagonal_mapping (test_audit_v2.AuditV2Test) ... ok
+test_chain_models_return_no_indication_for_no_detectable_fault (test_chain_models.ChainModelTest) ... ok
+test_data_duplication_enumerates_all_blind_ordered_pairs (test_chain_models.ChainModelTest) ... ok
+test_data_duplication_without_good_chain_returns_full_universe (test_chain_models.ChainModelTest) ... ok
+test_reversible_returns_interval_between_directional_bounds (test_chain_models.ChainModelTest) ... ok
+test_reversible_uses_one_interval_per_failed_chain (test_chain_models.ChainModelTest) ... ok
+test_intermittent_fault_uses_activation_opportunity (test_fault_engine.FaultEngineTest) ... ok
+test_multiple_faults_are_retained_in_observation (test_fault_engine.FaultEngineTest) ... ok
+test_saf0_is_detected_only_when_one_is_applied (test_fault_engine.FaultEngineTest) ... ok
+test_saf1_is_detected_only_when_zero_is_applied (test_fault_engine.FaultEngineTest) ... ok
+test_tdf_below_capture_margin_is_not_observed (test_fault_engine.FaultEngineTest) ... ok
+test_tdf_requires_matching_transition_direction (test_fault_engine.FaultEngineTest) ... ok
+test_coverage_counts_all_fault_active_cases (test_metrics_and_runner.MetricsAndRunnerTest) ... ok
+test_full_runner_produces_four_rows_per_scenario (test_metrics_and_runner.MetricsAndRunnerTest) ... ok
+test_model_does_not_access_ground_truth (test_metrics_and_runner.MetricsAndRunnerTest) ... ok
+test_pooled_dr_uses_summed_cardinalities (test_metrics_and_runner.MetricsAndRunnerTest) ... ok
+test_reports_are_byte_deterministic (test_metrics_and_runner.MetricsAndRunnerTest) ... ok
+test_summary_states_indication_semantics_and_proposed_baseline (test_metrics_and_runner.MetricsAndRunnerTest) ... ok
+test_no_detectable_fault_produces_no_indication (test_path_models.PathModelTest) ... ok
+test_reconfigurable_single_fault_finishes_in_first_stage (test_path_models.PathModelTest) ... ok
+test_reconfigurable_uses_second_stage_for_ambiguous_multiple_faults (test_path_models.PathModelTest) ... ok
+test_two_dimensional_single_fault_is_native_intersection (test_path_models.PathModelTest) ... ok
+test_two_dimensional_staircase_diagonal_is_non_orthogonal (test_path_models.PathModelTest) ... ok
+test_two_dimensional_three_fault_masking_produces_ghost_candidates (test_path_models.PathModelTest) ... ok
+test_common_suite_contains_required_case_counts (test_scenarios.ScenarioSuiteTest) ... ok
+test_controlled_delay_cases_use_four_and_six_ns (test_scenarios.ScenarioSuiteTest) ... ok
+test_intermittent_schedule_matches_phase34 (test_scenarios.ScenarioSuiteTest) ... ok
+test_representative_coordinates_match_existing_testbenches (test_scenarios.ScenarioSuiteTest) ... ok
+test_suite_is_deterministic (test_scenarios.ScenarioSuiteTest) ... ok
+test_diagonal_shift (test_simulator.TestScanSimulator) ... ok
+test_initialization_and_fault_free_capture (test_simulator.TestScanSimulator) ... ok
+test_intermittent_faults (test_simulator.TestScanSimulator) ... ok
+test_multiple_saf_contamination_and_masking (test_simulator.TestScanSimulator) ... ok
+test_reconfigurable_shift (test_simulator.TestScanSimulator) ... ok
+test_reverse_shift (test_simulator.TestScanSimulator) ... ok
+test_saf_and_horizontal_shift_contamination (test_simulator.TestScanSimulator) ... ok
+test_tdf_delay_selectivity (test_simulator.TestScanSimulator) ... ok
+test_vertical_shift (test_simulator.TestScanSimulator) ... ok
+test_closed_form_paths_match_symbolic_shift_oracle (test_two_dimensional_paper.PaperTwoDimensionalTest) ... ok
+test_figure4_same_row_two_faults_are_exact (test_two_dimensional_paper.PaperTwoDimensionalTest) ... ok
+test_figure5_diagonal_paths_remove_crossed_ghosts (test_two_dimensional_paper.PaperTwoDimensionalTest) ... ok
+test_figure8_keeps_exactly_two_masked_ghosts (test_two_dimensional_paper.PaperTwoDimensionalTest) ... ok
+test_padding_cells_are_never_suspects (test_two_dimensional_paper.PaperTwoDimensionalTest) ... ok
+test_single_fault_is_exact (test_two_dimensional_paper.PaperTwoDimensionalTest) ... ok
+test_small_grid_one_and_two_fault_diagnosis_matches_oracle (test_two_dimensional_paper.PaperTwoDimensionalTest) ... ok
+test_active_fault_ids_follow_each_opportunity (test_two_dimensional_paper_intermittent.PaperTwoDimensionalIntermittentTest) ... ok
+test_fault_schedule_matches_v2_random_call_order (test_two_dimensional_paper_intermittent.PaperTwoDimensionalIntermittentTest) ... ok
+test_outputs_and_both_summaries_are_deterministic (test_two_dimensional_paper_intermittent.PaperTwoDimensionalIntermittentTest) ... START topology=square71 injected_F=5 trials=2
+DONE topology=square71 injected_F=5
+START topology=legacy5x1000 injected_F=5 trials=2
+DONE topology=legacy5x1000 injected_F=5
+START topology=square71 injected_F=5 trials=2
+DONE topology=square71 injected_F=5
+START topology=legacy5x1000 injected_F=5 trials=2
+DONE topology=legacy5x1000 injected_F=5
+ok
+test_stale_checkpoint_does_not_duplicate_opportunity_rows (test_two_dimensional_paper_intermittent.PaperTwoDimensionalIntermittentTest) ... START topology=square71 injected_F=5 trials=2
+DONE topology=square71 injected_F=5
+START topology=square71 injected_F=5 trials=2
+DONE topology=square71 injected_F=5
+ok
+test_fault_generation_is_deterministic_and_observable (test_two_dimensional_paper_runner.PaperTwoDimensionalRunnerTest) ... ok
+test_resume_does_not_duplicate_rows_when_checkpoint_is_stale (test_two_dimensional_paper_runner.PaperTwoDimensionalRunnerTest) ... START topology=square71 F=1 trials=3
+DONE topology=square71 F=1
+START topology=square71 F=2 trials=3
+DONE topology=square71 F=2
+START topology=square71 F=1 trials=3
+DONE topology=square71 F=1
+START topology=square71 F=2 trials=3
+DONE topology=square71 F=2
+ok
+test_seed_and_sample_match_v2_permanent_convention (test_two_dimensional_paper_runner.PaperTwoDimensionalRunnerTest) ... ok
+test_summary_is_deterministic_and_contains_expected_single_fault_metrics (test_two_dimensional_paper_runner.PaperTwoDimensionalRunnerTest) ... START topology=square71 F=1 trials=4
+DONE topology=square71 F=1
+START topology=square71 F=3 trials=4
+DONE topology=square71 F=3
+START topology=legacy5x1000 F=1 trials=4
+DONE topology=legacy5x1000 F=1
+START topology=legacy5x1000 F=3 trials=4
+DONE topology=legacy5x1000 F=3
+START topology=square71 F=1 trials=4
+DONE topology=square71 F=1
+START topology=square71 F=3 trials=4
+DONE topology=square71 F=3
+START topology=legacy5x1000 F=1 trials=4
+DONE topology=legacy5x1000 F=1
+START topology=legacy5x1000 F=3 trials=4
+DONE topology=legacy5x1000 F=3
+ok
+
+----------------------------------------------------------------------
+Ran 57 tests in 11.657s
+
+OK

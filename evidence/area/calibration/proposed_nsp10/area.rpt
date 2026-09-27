@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : area
+Design : compact_production_top_L72_N_TOTAL160_NSP10
+Version: S-2021.06-SP4
+Date   : Thu Jun 11 23:54:46 2026
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /srscl/kits/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+Number of ports:                         1147
+Number of nets:                         59899
+Number of cells:                        50826
+Number of combinational cells:          36730
+Number of sequential cells:             14080
+Number of macros/black boxes:               0
+Number of buf/inv:                       1546
+Number of references:                      18
+
+Combinational area:              80111.017196
+Buf/Inv area:                     2995.595394
+Noncombinational area:           97851.541077
+Macro/Black Box area:                0.000000
+Net Interconnect area:           84551.309564
+
+Total cell area:                177962.558273
+Total area:                     262513.867837
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-      Noncombi-   Black-
+                                  Total        Total    national    national    boxes   Design
+--------------------------------  -----------  -------  ----------  ----------  ------  -----------------------------------------------
+compact_production_top_L72_N_TOTAL160_NSP10
+                                  177962.5583    100.0     26.9393      0.0000  0.0000  compact_production_top_L72_N_TOTAL160_NSP10
+g_bank_0__u_bank                   11104.0597      6.2   4988.3384   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_15
+g_bank_10__u_bank                  11118.2918      6.2   5002.5705   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_5
+g_bank_11__u_bank                  11121.0874      6.2   5005.3661   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_4
+g_bank_12__u_bank                  11113.9713      6.2   4998.2500   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_3
+g_bank_13__u_bank                  11111.9382      6.2   4996.2169   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_2
+g_bank_14__u_bank                  11120.5791      6.2   5004.8578   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_1
+g_bank_15__u_bank                  11119.8167      6.2   5004.0953   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_0
+g_bank_1__u_bank                   11119.3084      6.2   5003.5870   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_14
+g_bank_2__u_bank                   11125.9161      6.3   5010.1948   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_13
+g_bank_3__u_bank                   11136.8443      6.3   5021.1230   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_12
+g_bank_4__u_bank                   11116.7669      6.2   5001.0456   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_11
+g_bank_5__u_bank                   11131.7614      6.3   5016.0401   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_10
+g_bank_6__u_bank                   11135.3194      6.3   5019.5981   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_9
+g_bank_7__u_bank                   11117.2752      6.2   5001.5539   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_8
+g_bank_8__u_bank                   11128.2034      6.3   5012.4821   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_7
+g_bank_9__u_bank                   11114.4796      6.2   4998.7583   6115.7213  0.0000  compact_spare_scan_bank_L72_NCHAINS10_POS_W7_6
+--------------------------------  -----------  -------  ----------  ----------  ------  -----------------------------------------------
+Total                                                   80111.0172  97851.5411  0.0000
+
+1

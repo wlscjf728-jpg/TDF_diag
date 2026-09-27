@@ -1,0 +1,65 @@
+ 
+****************************************
+Report : area
+Design : veer_wrapper
+Version: S-2021.06-SP4
+Date   : Fri Jun 19 01:35:18 2026
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /srscl/kits/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+Number of ports:                        20339
+Number of nets:                        104123
+Number of cells:                        82200
+Number of combinational cells:          67979
+Number of sequential cells:             14179
+Number of macros/black boxes:               0
+Number of buf/inv:                       6256
+Number of references:                      45
+
+Combinational area:             162285.939068
+Buf/Inv area:                     9341.571090
+Noncombinational area:          100717.777233
+Macro/Black Box area:                0.000000
+Net Interconnect area:          159494.252139
+
+Total cell area:                263003.716301
+Total area:                     422497.968439
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  -------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-    Black-
+                                  Total        Total    national     national     boxes   Design
+--------------------------------  -----------  -------  -----------  -----------  ------  --------------------------------------
+veer_wrapper                      263003.7163    100.0    1677.0963    1508.5988  0.0000  veer_wrapper
+mem                                 5242.7366      2.0    4402.0282     840.7084  0.0000  mem
+veer_dbg                            5203.5985      2.0    3360.5461    1843.0523  0.0000  dbg
+veer_dec                           86212.2534     32.8      13.7238       0.0000  0.0000  dec
+veer_dec/arf                       22124.2519      8.4   15065.1480    7059.1039  0.0000  dec_gpr_ctl_GPR_BANKS1_GPR_BANKS_LOG21
+veer_dec/dec_trigger                2066.1907      0.8    2066.1907       0.0000  0.0000  dec_trigger
+veer_dec/decode                    28536.8135     10.9   15889.5912   12647.2222  0.0000  dec_decode_ctl
+veer_dec/instbuff                   8771.5261      3.3    4422.1056    4349.4205  0.0000  dec_ib_ctl
+veer_dec/tlu                       24699.7474      9.4   13954.0306   10745.7168  0.0000  dec_tlu_ctl
+veer_dma_ctrl                      10056.4782      3.8    5737.0467    4319.4315  0.0000  dma_ctrl
+veer_exu                           42342.1698     16.1   19022.1702   15043.8002  0.0000  exu
+veer_exu/mul_e1                     8276.1994      3.1    6831.1366    1445.0628  0.0000  exu_mul_ctl
+veer_ifu                           52872.1183     20.1    1119.7585     761.9237  0.0000  ifu
+veer_ifu/aln                       17542.2898      6.7   11329.9937    6212.2960  0.0000  ifu_aln_ctl
+veer_ifu/bp                        22184.7383      8.4   11460.8778   10723.8604  0.0000  ifu_bp_ctl
+veer_ifu/mem_ctl                   11263.4081      4.3    5527.3779    5736.0302  0.0000  ifu_mem_ctl
+veer_lsu                           57888.6666     22.0    4742.3270    5394.9689  0.0000  lsu
+veer_lsu/bus_intf                  30308.4512     11.5    3546.8337     370.5420  0.0000  lsu_bus_intf
+veer_lsu/bus_intf/bus_buffer       26391.0756     10.0   18605.1198    7785.9557  0.0000  lsu_bus_buffer
+veer_lsu/clkdomain                   103.6908      0.0      60.9946      42.6962  0.0000  lsu_clkdomain
+veer_lsu/ecc                        1728.4333      0.7    1728.4333       0.0000  0.0000  lsu_ecc
+veer_lsu/stbuf                     14116.4286      5.4   10229.0419    3887.3867  0.0000  lsu_stbuf
+veer_lsu/trigger                    1494.3667      0.6    1494.3667       0.0000  0.0000  lsu_trigger
+--------------------------------  -----------  -------  -----------  -----------  ------  --------------------------------------
+Total                                                   162285.9391  100717.7772  0.0000
+
+1

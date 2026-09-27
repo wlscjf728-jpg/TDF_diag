@@ -1,0 +1,56 @@
+ 
+****************************************
+Report : area
+Design : or1200_system
+Version: S-2021.06-SP4
+Date   : Fri Jun 19 02:14:16 2026
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /srscl/kits/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+    saed32sram_ss0p95v125c (File: /srscl/kits/SAED32_EDK/lib/sram/db_nldm/saed32sram_ss0p95v125c.db)
+
+Number of ports:                         3281
+Number of nets:                         28619
+Number of cells:                        23058
+Number of combinational cells:          19918
+Number of sequential cells:              3020
+Number of macros/black boxes:              64
+Number of buf/inv:                       2211
+Number of references:                      13
+
+Combinational area:              47055.524054
+Buf/Inv area:                     3131.816543
+Noncombinational area:           20817.952113
+Macro/Black Box area:          3242731.750000
+Net Interconnect area:           61691.034410
+
+Total cell area:               3310605.226167
+Total area:                    3372296.260577
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area                 Local cell area
+                                  ---------------------  ------------------------------------ 
+Hierarchical cell                 Absolute      Percent  Combi-      Noncombi-   Black-
+                                  Total         Total    national    national    boxes         Design
+--------------------------------  ------------  -------  ----------  ----------  ------------  ----------------------
+or1200_system                     3310605.2262    100.0   3993.1105      0.0000  3242731.7500  or1200_system
+u_cpu                               63880.3656      1.9   1960.4668   1850.1684        0.0000  or1200_top_ppic_ints20
+u_cpu/or1200_cpu                    46022.1750      1.4   6958.4627   2621.7495        0.0000  or1200_cpu_00000100
+u_cpu/or1200_cpu/or1200_except       3004.7446      0.1   1403.6373   1601.1072        0.0000  or1200_except
+u_cpu/or1200_cpu/or1200_fpu         21701.3565      0.7   3349.6179   1851.1850        0.0000  or1200_fpu
+u_cpu/or1200_cpu/or1200_fpu/fpu_arith
+                                    16500.5536      0.5   8150.3981   6166.5502        0.0000  or1200_fpu_arith
+u_cpu/or1200_cpu/or1200_fpu/fpu_arith/fpu_mul
+                                     2183.6053      0.1   1179.2282   1004.3771        0.0000  or1200_fpu_mul
+u_cpu/or1200_cpu/or1200_mult_mac    11735.8617      0.4   3367.6621   1509.6154        0.0000  or1200_mult_mac
+u_cpu/or1200_cpu/or1200_mult_mac/or1200_gmultp2_32x32
+                                     6858.5841      0.2   5946.7154    911.8687        0.0000  or1200_gmultp2_32x32
+u_cpu/or1200_du                     14047.5554      0.4  10746.2248   3301.3306        0.0000  or1200_du
+--------------------------------  ------------  -------  ----------  ----------  ------------  ----------------------
+Total                                                    47055.5241  20817.9521  3242731.7500
+
+1

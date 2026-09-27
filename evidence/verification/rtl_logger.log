@@ -1,0 +1,17 @@
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Sep 28 01:43 2026
+CASE no_fault             detected=0 stored=0 compact_bits=0 red_full=100.00% red_rawB=100.00% sram_use=0.00% overflow=0
+CASE single_static        detected=1 stored=1 compact_bits=16 red_full=99.44% red_rawB=94.44% sram_use=3.12% overflow=0
+CASE single_transition    detected=1 stored=1 compact_bits=16 red_full=99.44% red_rawB=94.44% sram_use=3.12% overflow=0
+CASE multi_diff_cols      detected=3 stored=3 compact_bits=48 red_full=98.33% red_rawB=83.33% sram_use=9.38% overflow=0
+CASE same_col_mixed       detected=1 stored=1 compact_bits=16 red_full=99.44% red_rawB=94.44% sram_use=3.12% overflow=0
+CASE dense_16_events      detected=16 stored=16 compact_bits=256 red_full=91.11% red_rawB=11.11% sram_use=50.00% overflow=0
+CASE overflow_40_events   detected=40 stored=32 compact_bits=512 red_full=82.22% red_rawB=-77.78% sram_use=100.00% overflow=1
+PASS: Step 5 compact compression experiment
+$finish called from file "/srscl/home/jcjeong/exa-results/TDF_diag/tb/TB_step5_compression.v", line 159.
+$finish at simulation time                 7000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 7000 ps
+CPU Time:      0.720 seconds;       Data structure size:   0.0Mb
+Mon Sep 28 01:43:22 2026

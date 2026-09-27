@@ -1,0 +1,34 @@
+{
+  "fault_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    50,
+    100
+  ],
+  "master_seed": 42,
+  "model": "paper boundary-origin alternating H/V staircase paths",
+  "topologies": {
+    "legacy5x1000": {
+      "active_cells": 5000,
+      "columns": 1000,
+      "padding_cells": 0,
+      "rows": 5
+    },
+    "square71": {
+      "active_cells": 5000,
+      "columns": 71,
+      "padding_cells": 41,
+      "rows": 71
+    }
+  },
+  "trials": 100
+}

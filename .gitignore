@@ -1,0 +1,12 @@
+/build/
+/results/
+/diagnosis/results/
+__pycache__/
+*.pyc
+*.vcd
+*.fsdb
+*.db
+*.ddc
+simv*
+csrc/
+.DS_Store

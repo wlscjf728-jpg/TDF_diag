@@ -1,0 +1,51 @@
+ 
+****************************************
+Report : area
+Design : mor1kx_FEATURE_DMMUNONE_FEATURE_IMMUNONE_261242
+Version: S-2021.06-SP4
+Date   : Fri Jun 19 00:46:03 2026
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /srscl/kits/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+Number of ports:                         3184
+Number of nets:                         11848
+Number of cells:                         9520
+Number of combinational cells:           7756
+Number of sequential cells:              1672
+Number of macros/black boxes:               0
+Number of buf/inv:                        883
+Number of references:                      24
+
+Combinational area:              19065.374612
+Buf/Inv area:                     1182.023751
+Noncombinational area:           10991.728360
+Macro/Black Box area:                0.000000
+Net Interconnect area:           11600.818149
+
+Total cell area:                 30057.102972
+Total area:                      41657.921121
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ------------------------------ 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   Black-
+                                  Total       Total    national    national    boxes   Design
+--------------------------------  ----------  -------  ----------  ----------  ------  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mor1kx_FEATURE_DMMUNONE_FEATURE_IMMUNONE_261242
+                                  30057.1030    100.0    410.9509    237.8788  0.0000  mor1kx_FEATURE_DMMUNONE_FEATURE_IMMUNONE_261242
+mor1kx_cpu_cappuccino_mor1kx_cpu  29408.2733     97.8   5490.0187   5644.0301  0.0000  mor1kx_cpu_cappuccino_32_ENABLED_5_9_2_32_NONE_NONE_NONE_6_1_ENABLED_5_9_2_32_NONE_NONE_6_1_ENABLED_NONE_NONE_0_NONE_ENABLED_ENABLED_ENABLED_ENABLED_LEVEL_0_ENABLED_ENABLED_ENABLED_NONE_0_0_5_32_00000100_THREESTAGE_SERIAL_BARREL_ENABLED_ENABLED_NONE_NONE_ENABLED_ENABLED_ENABLED_NONE_NONE_ENABLED_NONE_NONE_NONE_NONE_NONE_NONE_NONE_NONE_NONE_ENABLED_8_NONE_NONE_SIMPLE
+mor1kx_cpu_cappuccino_mor1kx_cpu/mor1kx_ctrl_cappuccino
+                                   5108.8028     17.0   2921.6394   2187.1633  0.0000  mor1kx_ctrl_cappuccino_32_00000100_ENABLED_ENABLED_ENABLED_ENABLED_5_9_2_NONE_6_1_ENABLED_5_9_2_NONE_6_1_ENABLED_NONE_NONE_0_NONE_NONE_NONE_ENABLED_LEVEL_0_ENABLED_NONE_0_ENABLED_ENABLED
+mor1kx_cpu_cappuccino_mor1kx_cpu/mor1kx_execute_alu
+                                   9157.8249     30.5   7602.9719   1554.8530  0.0000  mor1kx_execute_alu_FEATURE_ADDCENABLED_FEATURE_SRAENABLED_FEATURE_RORNONE_FEATURE_EXTNONE_FEATURE_CMOVENABLED_FEATURE_FFL1ENABLED_FEATURE_CUST1NONE_FEATURE_CUST2NONE_FEATURE_CUST3NONE_FEATURE_CUST4NONE_FEATURE_CUST5NONE_FEATURE_CUST6NONE_FEATURE_CUST7NONE_FEATURE_CUST8NONE_FEATURE_FPUNONE_OPTION_SHIFTERBARREL_766242
+mor1kx_cpu_cappuccino_mor1kx_cpu/mor1kx_lsu_cappuccino
+                                   4007.5968     13.3   2639.7937   1367.8031  0.0000  mor1kx_lsu_cappuccino_OPTION_DCACHE_WAYS2_FEATURE_DMMUNONE_OPTION_DMMU_WAYS1_762242
+--------------------------------  ----------  -------  ----------  ----------  ------  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                  19065.3746  10991.7284  0.0000
+
+1

@@ -1,0 +1,12 @@
+Command: /srscl/home/jcjeong/LBIST_inf/dc/experimental/SIM/FUNCTION/./simv_step3_phase0 -l step3_phase0_run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Jun 11 21:25 2026
+PHASE4_SUMMARY L=72 NCHAINS=5 total=20 expected_detect=10 correct=10 fp=0 fn=0 wrong_location=0 wrong_vector=0 no_fault_fail=0 overflow=0 chain_coverage=11111 regions=111
+PASS: Phase 4 72x5 representative regression
+$finish called from file "../TESTBENCH/TB_spare_scan_top.v", line 215.
+$finish at simulation time             65111000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 65111000 ps
+CPU Time:      0.660 seconds;       Data structure size:   0.2Mb
+Thu Jun 11 21:25:30 2026
